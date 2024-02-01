@@ -7,6 +7,7 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Skills from "./pages/Skills";
 
+
 function App() {
   const [loading, setLoading] = useState(true);
 

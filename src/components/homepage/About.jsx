@@ -50,31 +50,31 @@ const AboutDiv = styled(motion.div)`
 const About = () => {
   return (
     <AboutDiv
-      variants={staggerContainer}
-      initial="hidden"
-      whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
-    >
-      <ContainerSlideIn variants={fadeIn("left", "tween", 0.2, 0.6)}>
+    variants={staggerContainer}
+    initial="hidden"
+    whileInView="show"
+    viewport={{ once: false, amount: 0.25 }}
+  >
+    <ContainerSlideIn variants={fadeIn("left", "tween", 0.2, 0.6)}>
       <div>
-    <p>
-      Hey there! I'm CJ, a self-taught Front-end Jr. Developer, passionate about web development and remote work.
-    </p>
-    <p>
-      Primary Techs: Javascript, ReactJs, CSS, Styled Components, SASS, HTML. Currently studying Typescript and Node.
-    </p>
-    <p>
-      With a background in Electronics engineering and Computer Science, I bring a unique blend of technical know-how and creativity.
-    </p>
-    <p>
-      My goal is simple: to learn, grow, and be a valuable team player. I'm here to support and collaborate with my experienced colleagues and create outstanding web experiences that leave a lasting impact.
-    </p>
-    <h3>
-      If you're in search of a curious and dedicated team member eager to contribute and learn, count me in! 🙋‍♂️
-    </h3>
-  </div>   
-      </ContainerSlideIn>
-    </AboutDiv>
+        <p>
+          👋 Hi there! I'm Archie or Luars a software developer with roots in Albania, where my journey kicked off at a top-notch school for comp science and electrical engineering. I dove into programming by building small apps and got real about it through internships. Currently I am living in the beautiful country of Germany.
+        </p>
+        <p>
+          I'm big on self-learning 📚, especially loving Python and JavaScript. I've professionally rocked JavaScript, React, Next.js, and I'm comfy with Django and Node.js for the backend hustle. CSS and HTML? Got those in my pocket too.
+        </p>
+        <p>
+          Check out my projects to see what I've been up to! 🚀
+        </p>
+        <p>
+          Inspired by legends like da Vinci and tales like "The Alchemist," I mix creativity with hard work. My aim? To be among the tech greats, enhance my skills with big tech names, and maybe, just maybe, change the world. 🌍
+        </p>
+        <p>
+          Stay tuned, and let's make something awesome together!
+        </p>
+      </div>   
+    </ContainerSlideIn>
+  </AboutDiv>
   );
 };
 

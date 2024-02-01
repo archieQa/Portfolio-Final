@@ -140,6 +140,21 @@ const Skills = () => {
       name: "GraphQL",
       experience: 40,
       details: "Query language, Apollo Client, Server-side implementation"
+    },
+    {
+      name: "Python",
+      experience: 50,
+      details: "Django, Automation"
+    },
+    {
+      name: "Java",
+      experience: 50,
+      details: "Desktop Applications"
+    },
+    {
+      name: "C++",
+      experience: 70,
+      details: "Algorithms and Datastructures"
     }
   ];
 

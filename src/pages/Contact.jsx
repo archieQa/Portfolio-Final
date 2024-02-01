@@ -101,13 +101,14 @@ const Contact = () => {
           >
               <Social src={Github} alt="archieQa's Github" />
           </a>
+          
           <a
             href="https://www.linkedin.com/in/luarsqamo/"
             target="_blank"
           >
             <Social src={Linkedin} alt="archieQa's LinkedIn" />
           </a>
-          <ResumeButton onClick={() => window.open("https://drive.google.com/file/d/1fmuA_PlPhS9qN2-pC4JvjcRc5MeSb3um/view?usp=sharing", "_blank")} download>
+          <ResumeButton onClick={() => window.open("https://docs.google.com/document/d/1kqur_73lEkll_2JdJDEAjk6w7BRYFihjKLJo5trz_6g/edit?usp=drive_link", "_blank")} download>
             Download Resume
           </ResumeButton>
         </Center>

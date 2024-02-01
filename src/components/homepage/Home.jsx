@@ -89,7 +89,7 @@ const Home = () => {
   useEffect(() => {
     // Initialize Typed on the webD element
     const webD = new Typed(".web-developer", {
-      strings: [".web developer", ".enthusiastic coder", ".get in touch!"],
+      strings: [".web developer",".ethical hacker", ".coder", ".mobile developer",".python developer",],
       startDelay: 400,
       typeSpeed: 70,
       backDelay: 500,

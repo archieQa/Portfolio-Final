@@ -1,10 +1,10 @@
 export const projects = [
   {
-    name: "archieQa.Blog",
+    name: "archieQa.Blog Joint Project with CJ",
     projects: "Blog • GraphCMS",
     year: "Personal, 2023.",
     url: "https://github.com/cetijunior/Blog",
-    web: "https://blog-eta-eight-96.vercel.app/",
+    web: "https://blog-ogetky3m4-cetijuniors-projects.vercel.app/",
   },
   {
     name: "archieQa.Movie Web App",
@@ -24,7 +24,7 @@ export const projects = [
     name: "archieQa.Playground",
     projects: "Playground App ",
     year: "Personal, 2023.",
-    url: "https://github.com/cetijunior/ToDo",
-    web: "https://cj-to-do.vercel.app/",
+    url: "",
+    web: "https://github.com/archieQa/InternetChallanges",
   },
 ];
